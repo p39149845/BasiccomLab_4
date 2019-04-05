@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css>
+    <script src="myscript.js"></script>
+</head>
+
+<body>
+    <style>
+        table {
+            border: 1px solid black;
+        }
+
+        Center {
+            font-size: 300%
+        }
+
+        div {
+            font-size: 150%
+        }
+    </style>
+    <table style="width: 100%">
+        <th>
+            <table>
+                <center>My Portfolio Website </center>
+            </table>
+        </th>
+    </table>
+    <table style="width : 100%">
+        <th>
+            <table>
+                <div>pumipat sumritkitchareon</div>
+                <div>CPE CMU Student</div>
+                <div>(+66)-877-899644</div>
+                <div>pumipatsumrit@gmail.com</div>
+            </table>
+        </th>
+        <th>
+            <img src="Gallery/Me.jpg" alt="maple" width="200" height="200">
+        </th>
+    </table>
+
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="index">Home</a>
+        </li>
+        <li class=" nav-item">
+                <a class="nav-link " data-toggle="tab" href="Gallery">Gallery</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="Contact">Contact </a> </li>
+    </ul>
+    <h4 id="myTabContent" class="tab-content">
+        <h4 class="tab-pane fade active show" id="Gallery">
+            <p>
+                <center>CONTACT</center>
+                <form name="contactform">
+                    <fieldset>
+                        <h4 class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" class="form-control" id="subject" placeholder="what sub?(ject)">
+                        </h4>
+                        <h4 class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="kimi no nawa?">
+                        </h4>
+                        <h4 class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" class="form-control" id="phone" placeholder="Wat's ur phone number">
+                        </h4>
+                        <h4 class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="3" placeholder="Do some thing"></textarea>
+                        </h4>
+                        <legend>Gender</legend>
+                        <h4 class="form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox" value="male" id="man">
+                                male
+                            </label>
+                        </h4>
+                        <h4 class="form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox" check="check" value="female" id="girl">
+                                female
+                            </label>
+                        </h4>
+                        <h4 class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" check="check"
+                                placeholder="email@example.com">
+                        </h4>
+                        <fieldset>
+                            <p style="text-align:center;">
+                                <button type="button" onclick="addli()" class="btn btn-outline-success">Confirm</button>
+                            </p>
+                        </fieldset>
+                        <table style="width :100%">
+                            <th>Contact list : 
+                                <ul id="list"></ul>
+                            </th>
+                            
+                        </table>
+                        
+                        </table>
+
+                </form>
+            </p>
+        </h4>
+    </h4>
+    </li>
+    <p style="text-align:center;">
+        Pumipat Sumritkitchareon -
+        Pumipatsumrit@gmail.com
+        - (+66)-878-99644
+    </p>
+
+</body>
+
+</html>
